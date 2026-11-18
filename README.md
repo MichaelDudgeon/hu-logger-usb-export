@@ -4,9 +4,10 @@ Copy existing **HU Logger** logs to a USB drive, without ADB. Insert the prepare
 drive, approve the NEMESIS execute prompt, and take the collected files back to
 your computer.
 
-This is a USB companion script for Gor/xwtk's **HU Logger** (`hu.logger`). It
-uses NEMESIS's `type=execute` workflow. It does not install an application or
-service, and it does not install, start, stop, or reconfigure HU Logger.
+This is a USB companion script for **HU Logger** (`hu.logger`), developed by
+Gor Mirzoyan ([xwtk.cloud](https://xwtk.cloud/services/nemesis/)). It uses
+NEMESIS's `type=execute` workflow. It does not install an application or service,
+and it does not install, start, stop, or reconfigure HU Logger.
 
 ## Requirements
 
@@ -129,7 +130,8 @@ execute download, so the listing must be reviewed as that kind of companion.
 
 ## Credits and references
 
-HU Logger and NEMESIS are Gor/xwtk's projects. This repository provides a
+HU Logger and NEMESIS are developed by Gor Mirzoyan
+([xwtk.cloud](https://xwtk.cloud/services/nemesis/)). This repository provides a
 separate log-export companion and does not bundle HU Logger itself.
 
 - [NEMESIS repository](https://github.com/xwtk/hmg_nemesis)
