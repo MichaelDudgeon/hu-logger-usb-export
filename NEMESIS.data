@@ -1,0 +1,12 @@
+[nemesis]
+version=1.1
+id=hu.logger.usb-export
+name=HU Logger USB Export
+type=execute
+package-version=1.0.0
+short-desc=Copy existing HU Logger logs to a USB drive
+detailed-desc=USB companion for HU Logger. Extract to USB root and approve execution to copy existing logs. Nothing is installed. Original logs stay in place. Exported logs are private and unredacted.
+os=any
+models=any
+depends=hu.logger@>=1.0.0
+path=NEMESIS.sh
